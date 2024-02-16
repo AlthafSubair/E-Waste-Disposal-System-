@@ -1,0 +1,117 @@
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.img {
+    width: 100%;
+    height: 500px;
+}
+
+.slider-container {
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+}
+
+th,
+td {
+    text-align: left;
+   
+    
+    
+}
+
+
+.item-slider {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+/* Adjusted styles for each item in the table */
+
+.item-slider-container {
+    overflow-x: auto;
+}
+
+/* Adjusted styles for the table */
+.item-slider-table {
+    width: auto; /* Set a fixed or max-width as needed */
+    background: #030404;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-spacing: 1px;
+}
+
+.item-slider-table th, .item-slider-table td {
+    text-align: left;
+    padding: 8px;
+   
+}
+
+.pic-container {
+    border: 1px solid #2d2a2a26;
+    margin-left: -4px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Set a fixed width for each item */
+    height: 200px; /* Set a fixed height for each item */
+    border-radius: 5px;
+}
+.pic-container-s {
+    border: 1px solid #2d2a2a26;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 220px; /* Set a fixed width for each item */
+    height: 220px; /* Set a fixed height for each item */
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.pic {
+    width: 100%;
+    height: 100px;
+}
+.pic-s {
+    width: 200px;
+    height: 200px;
+}
+.custom-box{
+
+    border: 1px solid #2d2a2a26;
+    margin-left: -4px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Set a fixed width for each item */
+    height: 200px;
+    padding-top: 84px;
+   
+}
+.ver{
+    width: 100%;
+    border: 1px solid #2d2a2a26;
+    text-align: center;
+    height: 235px;
+   
+}
+.b-head{
+    width: 100%;
+height: 53px;
+background-color: black;
+color: white;
+   }
